@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /*top: 0;
+        left: 50%;
+        transform: translateX(-50%);*/
+    
+}
+
+.header{
+    /*position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);*/
+        
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.operations{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    }
+
+/*.counter{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    position:relative;
+    border-radius: 10px; /*rounds up the corners*/
+    /*display: inline-block;/*displays content in the center*/
+    /*align-items: flex-start;/*displays content in the center*/
+   /* justify-content: center;/*justifies content in the center*/
+   /* box-shadow: 5px 8px 5px 8px lightgrey;
+    }*/
+
+

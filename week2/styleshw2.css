@@ -1,0 +1,37 @@
+
+body {
+    /*background-image: url('background.jpg');*/
+    background-color: bisque;
+    background-size: 100%; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed; /* Keep the background image fixed while scrolling */
+  }
+  
+h2{letter-spacing: 1px;}
+h1{letter-spacing: 5px;}
+p{letter-spacing: 2px; 
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 20px; 
+  line-height: 1.5;}
+
+.discountprice{
+  color:hsla(hue, saturation, lightness, alpha); 
+  font-size: xx-large; 
+  font-weight: bolder;}
+
+.price{
+  color: rgb(17, 13, 13); 
+  font-size: large; 
+  font-weight: bold;}
+
+.quantity{ 
+           border-radius: 2px;
+           margin-right: 20px; }
+
+.add-to-cart{ background-color: rgb(45, 26, 150); 
+         border: none; 
+         text-align: center;
+         padding: 5px 10px;
+         font-size: medium;
+         border-radius: 10px; }

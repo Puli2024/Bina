@@ -1,0 +1,27 @@
+/*DOM classs*/
+/*div{ max-width: 50px;
+     max-height: 20px;
+     background-color: white;}
+
+section{
+        max-width: 50px;
+        max-height: 20x;}*/
+
+.first-green{
+              background-color: rgb(92, 179, 92);
+              max-width: 200px;
+              min-height: 150px;
+}
+    
+.blue-second{
+              background-color: rgb(130, 185, 192);
+              max-width: 200px;
+              min-height: 150px;
+}
+
+div{
+    background-color: pink;
+    max-width: 200px;
+    min-height: 150px;
+}
+
