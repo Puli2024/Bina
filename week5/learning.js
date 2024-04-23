@@ -19,3 +19,10 @@ boxOfDivs.forEach(logTextContent);*/
 
 //const elementById = document.getElementById('myElement');
 //console.log(elementById.textContent);//Outputs Hello DOM!
+
+const title='Best reads of 2019';
+const author='Wills';
+const likes=10;
+
+result = ` The blog called ${title} by ${author} has ${likes} likes `;
+console.log(result);
