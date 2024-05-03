@@ -6,17 +6,21 @@
     <link rel="stylesheet" href="styleshw4.css">
 </head>
 <body>
-<h1 class="head">COUNTER </h1>
+<h1 style="font-family: 'Courier New', Courier, monospace; font-size: large; color: black; text-align: center;"}>
+    COUNTER </h1>
 
-<div class="counter"> 
-    <div class="display" id="displayCounter">
-        0
-        <div>
-    <div class="operations">
+<div class="countercontainer"> 
+
+    <div class="displaybox" id="displayCounter">0</div>
+
+    <div class="operandbox" id="operandbutton">
+
     <button class="button" onclick="plusDisplay()"> + </button>
-    <button class="button" onclick="counterReset()">reset</button>
-    <button class="button" onclick="minusDisplay()"> - </button>
-        </div>
+    <button class="button" onclick="counterReset()">reset</span>
+    <button class="button" id="minusButton" onclick="minusDisplay()"> - </button>
+        
+    </div>
+
 </div>  
 
 <script src="scriptcounter.js"></script>
