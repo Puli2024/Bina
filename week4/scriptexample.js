@@ -1,6 +1,6 @@
 
 let count = 0;
-        const counterDisplay = document.getElementById('counterDisplay');
+        const counterDisplay = document.getElementById('displayCounter')//'counterDisplay');
 
         function updateDisplay() {
             counterDisplay.textContent = count;

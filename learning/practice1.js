@@ -1,3 +1,5 @@
+"use strict";
+
 //template string 
 /*const title='best of 2019';
 const author='Willis';
@@ -107,3 +109,100 @@ myFunction();///diplay: pop-up 'Hello world' on the browser*/
       }*/
 
 
+/*//adding function
+function add(a,b)
+{ let x=a+b;
+  return x;
+}
+console.log(add(1,2));
+
+function incr(y)
+{
+   let c=y+1;
+   return c;
+}
+console.log(incr(0));
+
+function multiply(e,f)
+{
+  let d=e*f;
+  return d;
+}
+console.log(multiply(3,4));
+
+const resultAdd = add(1,2);
+const resultIncr= incr(0);
+
+
+console.log(multiply(resultAdd,resultIncr));*/
+
+/*console.log(x);
+console.log(c);
+console.log()*/
+
+/*function grade(result)
+{
+  return result >= 60;
+}
+console.log(grade(50));*/
+
+function grade(result)
+{
+ return result>=60;
+    /*console.log(result, 'Passed');
+  result<60;  
+  console.log(result, 'Try again' );*/
+}
+console.log(grade(40));
+
+/*function grade(result)
+{if (result <= 60);
+console.log (result, 'better luck next time');
+}
+console.log(grade(70));*/
+
+/*function drivingAge(age)
+{if (result = age<= 18 && age <=80);
+return result;
+}
+console.log(drivingAge(70));*/
+
+/*function orderOut(shipCost)
+{
+  if ( shipCost <= 10)
+  {console.log(20);
+  return 20;}
+  else if (shipCost >= 10 && shipCost <100)
+  {console.log(50)
+  return 30;
+
+}
+
+}*/
+
+/*const arr1 = [1, 2, [3, 4]];
+const arr2 = [[5, 6], 7, 8];
+
+const arr3 = concat(arr1,arr2); 
+console.log(arr3);
+document.getElementById("demo").innerHTML = arr3;*/
+
+/*var x = 23;
+var y = "23";
+  if (x === y) 
+    console.log("string and int are not equal");
+
+  if (x == Number(y)) 
+    console.log("Converted string equals to int");
+
+  if (x.toString() == y)
+    console.log("Int converted to string also works");*/
+
+    x = 100; // This is valid
+        document.write("The value of the X is - " + x);
+        function test() {
+            "use strict";
+            y = 50; // This is not valid
+            document.write("The value of the y is: " + x);
+        }
+        test();
