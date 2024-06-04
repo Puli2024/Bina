@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #4CAF50;
+    color: white;
+    justify-content: space-between; /* Space between items to push the link to the right */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Padding for spacing */
+    height: 80px; /* Fixed height for the header */
+
+    /**text-align: center;
+    padding: 20px 0;**/
+}
+
+.header h1 {
+    margin: 0px;
+    font-size: 24px; /* Ensure header font size is larger */
+    padding-left: 50px;
+}
+
+.profile-link{
+    color: white; /* Link color */
+    text-decoration: underline; /* With underline */
+    font-size:
+     medium; /* Medium font size */
+    margin-left: auto; /* Push the profile link to the right */
+    }
+
+div.container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    /* width: 100%; /* Full width of the screen */
+    /*height: 20px; /* Height of 20px */
+    /*display: flex;*/
+}
+.left-panel {
+    /*float: left;*/
+    width: 100%;
+    background-color: #98e59e;
+    /*padding: 20px;*/
+    /*border-right: 1px solid #ddd;*/
+    height: 100vh; /* Full height of the viewport */
+}
+
+.right-panel {  
+    width: 100%;
+    background-color: rgb(245, 245, 12);
+    /*padding: 20px;*/
+    height: 100vh; /* Full height of the viewport */
+}
+
+
